@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+
+.Titre {
+  background-color: #A24454;
+  font-size: 50px;
+  text-align: center;
+  border-block: medium dashed #9D6161;
+}
+
+.botton {
+  font-size: 15px;
+background-color: #A24454;
+ border-block: medium black ;
+ text-align: center;
+}
+.body{
+  background-color: #515C67;
+}
+
+.origin_title{
+  color: #EFDD8D;
+  font-weight: 700;
+  font-size: 30px;
+}

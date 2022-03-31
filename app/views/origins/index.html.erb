@@ -1,10 +1,16 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Origins</h1>
+<body class="body">
+<h1 class="Titre">Origins</h1>
 
 <div id="origins">
   <% @origins.each do |origin| %>
-    <%= render origin %>
+  <p class="origin_title">
+   <%= origin.name %>
+   <br/>
+   <%= image_tag origin.image, :size => '220x220' %>
+
+  </p>
     <p>
       <%= link_to "Show this origin", origin %>
     </p>
@@ -12,3 +18,4 @@
 </div>
 
 <%= link_to "New origin", new_origin_path %>
+</body>
