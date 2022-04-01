@@ -1,20 +1,22 @@
 @import "bootstrap";
 
 .Titre {
-  background-color: #A24454;
+  background-color: #FFFFFF;
   font-size: 50px;
   text-align: center;
-  border-block: medium dashed #9D6161;
+  border-block: medium dashed #9aa77e;
+  display: flex;
+  justify-content : center
 }
 
 .botton {
   font-size: 15px;
-background-color: #A24454;
+background-color: #9aa77e;
  border-block: medium black ;
  text-align: center;
 }
 .body{
-  background-color: #515C67;
+  background-color: #DAEEB0;
 }
 
 .flex{
@@ -30,8 +32,24 @@ background-color: #A24454;
   margin: 10px;
 }
 
-.card {
+.card_limit {
   max-height: 300px;
   max-width: 200px;
-  margin: 25px;
+  margin: 75px;
+}
+
+.index_botton{
+  display: flex;
+  flex-direction : row-reverse;
+  justify-content : space-around;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #2D3125;
+}
+
+a{
+  text-decoration: none;
+  color: #677799;
 }
