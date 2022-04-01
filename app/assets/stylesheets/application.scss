@@ -32,11 +32,19 @@ background-color: #9aa77e;
   margin: 10px;
 }
 
-.card_limit {
+.card {
   max-height: 300px;
   max-width: 200px;
-  margin: 75px;
+  margin: 35px;
+  border-radius: 10px;
 }
+
+.description{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 
 .index_botton{
   display: flex;
