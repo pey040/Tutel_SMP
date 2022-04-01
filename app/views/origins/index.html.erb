@@ -3,19 +3,25 @@
 <body class="body">
 <h1 class="Titre">Origins</h1>
 
-<div id="origins">
-  <% @origins.each do |origin| %>
-  <p class="origin_title">
-   <%= origin.name %>
-   <br/>
-   <%= image_tag origin.image, :size => '220x220' %>
 
-  </p>
-    <p>
-      <%= link_to "Show this origin", origin %>
+<div id="origins" class="flex">
+  <% @origins.each do |origin| %>
+
+    <div class="card" style="card">
+  <%= image_tag origin.image %>
+  <div class="card-body">
+    <p class="card-text"><%= origin.name %></p>
+        <p>
+      <%= link_to "En voir plus", origin %>
     </p>
+
+  </div>
+</div>
+
   <% end %>
 </div>
 
 <%= link_to "New origin", new_origin_path %>
+<%= link_to "New user", new_user_path %>
+
 </body>

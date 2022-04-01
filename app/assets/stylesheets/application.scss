@@ -1,0 +1,37 @@
+@import "bootstrap";
+
+.Titre {
+  background-color: #A24454;
+  font-size: 50px;
+  text-align: center;
+  border-block: medium dashed #9D6161;
+}
+
+.botton {
+  font-size: 15px;
+background-color: #A24454;
+ border-block: medium black ;
+ text-align: center;
+}
+.body{
+  background-color: #515C67;
+}
+
+.flex{
+  display: flex;
+  flex-direction : row-reverse;
+  justify-content : space-around;
+  flex-wrap: wrap;
+
+}
+
+.flex>* {
+  flex: 1 1 160px;
+  margin: 10px;
+}
+
+.card {
+  max-height: 300px;
+  max-width: 200px;
+  margin: 25px;
+}
