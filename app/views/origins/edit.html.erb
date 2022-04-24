@@ -1,10 +1,14 @@
+<body class="body">
+<br>
+<div class="Titre">
 <h1>Editing origin</h1>
-
+</div>
 <%= render "form", origin: @origin %>
 
 <br>
 
 <div>
-  <%= link_to "Show this origin", @origin %> |
-  <%= link_to "Back to origins", origins_path %>
+  <button type="button" class="btn btn-outline-success"><%= link_to "Show this origin", @origin %></button> |
+  <button type="button" class="btn btn-outline-success"><%= link_to "Back to origins", origins_path %></button>
 </div>
+</body>

@@ -7,8 +7,8 @@
 <%= render @origin %>
 
 <div class="botton">
-  <%= link_to "Edit this origin", edit_origin_path(@origin) %> |
-  <%= link_to "Back to origins", origins_path %>
+  <button type="button" class="btn btn-outline-success"><%= link_to "Edit this origin", edit_origin_path(@origin) %> </button> |
+  <button type="button" class="btn btn-outline-success"><%= link_to "Back to origins", origins_path %> </button>
 
   <%= button_to "Destroy this origin", @origin, method: :delete %>
 </div>
